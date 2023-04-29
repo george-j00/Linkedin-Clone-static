@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script
+      src="https://kit.fontawesome.com/71668c5d86.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script> -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    /> -->
+    <title>Linkedin clone</title>
+  </head>
+  <body>
+    <nav>
+      
+      <div class="navbar-brand">
+        <i class="fa-brands fa-linkedin fa-2xl" style="color: #0052e0"></i>
+      </div>
+
+      <div class="search-field">
+        <form>
+          <search class="searchLogo"> <i class="fa-solid fa-magnifying-glass"></i></search>
+          <input type="text" placeholder="  Search" class="search-input" />
+        </form>
+      </div>
+
+      <div class="icons">
+        <ul class="icon">
+          
+          <li>
+           <a href=""> <i class="fa-solid fa-house" style="color: #000000;"></i> </a>
+          <br>
+           <span class="nav-items">Home</span> 
+          </li>
+
+          <li>
+          <a href=""><i class="fa-solid fa-briefcase" style="color: #000000;"></i>
+          </a>
+          <br>
+       <span class="nav-items">Jobs</span> 
+          </li>
+          
+          <li>
+            <a href=""><i class="fa-solid fa-bell" style="color: #000000;"></i></i></a>
+            <br>
+       <span class="nav-items">Notification</span> 
+          </li>
+          <li>
+            <a href="">    <i class="fa-solid fa-comment-dots" style="color: #000000;"></i>
+            </a>
+            <br>
+       <span class="nav-items">Messaging</span> 
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+     <div class="topHeader">
+       <div class="topHeaderTop">
+          <div class="headerProfile">
+              <!-- <a href=""></a> -->
+              <img class="profileImage" src="https://media.licdn.com/dms/image/D5603AQFFMQOqyUMv_g/profile-displayphoto-shrink_100_100/0/1669948711252?e=1687996800&v=beta&t=8_O7IvbrjRlYQBIyRllDkrLb7aDIaQavGkLm1d8A_tg" alt="">
+           </div>
+           <div class="headerPost">
+           <input  type="text" placeholder="Start a post" >
+          </div>
+       </div>
+     <div class="headerItems">
+       <h4><i class="fa-regular fa-image fa-xl " style="color: #0a64ff;"></i> <span style="padding-left: 10px;">Photo</span></h4>
+       <h4><i class="fa-regular fa-circle-play fa-xl" style="color: #06da50;"></i><span style="padding-left: 10px;">Video</span></h4>
+       <h4><i class="fa-regular fa-calendar fa-xl" style="color: #c0ba00;"></i><span style="padding-left: 10px;">Event</span></h4>
+       <h4><i class="fa-solid fa-newspaper fa-xl" style="color: #b47c02;"></i><span style="padding-left: 10px;">Write article</span></h4>
+      </div>
+     </div>
+    </header>
+
+    <div class="sortSection">
+      <div class="sortLine"></div>
+      <legend class="sort">Sort by : <b>Top <i class="fa-solid fa-caret-down"></i></b></legend>
+    </div>
+    <sidebar>
+
+      <!-- topsidebar start -->
+      <div class="topSidebar"> 
+        <div class="sideProfile">
+          <img class="sideTopBannerImage" src="https://media.licdn.com/dms/image/D5616AQETGGZyxPZEiA/profile-displaybackgroundimage-shrink_350_1400/0/1670764730296?e=1687996800&v=beta&t=QyRzMXlVfj_MKUezGpEOyReor5xaQX8fxNp8F_ASFoc" alt="">
+          <img class="sideBarprofileImage" src="https://media.licdn.com/dms/image/D5603AQFFMQOqyUMv_g/profile-displayphoto-shrink_100_100/0/1669948711252?e=1687996800&v=beta&t=8_O7IvbrjRlYQBIyRllDkrLb7aDIaQavGkLm1d8A_tg" alt="">
+          <h3 class="sideTopbarName">George Jose</h3><br>
+          <p class="sideTopbarPara">Front end dev | Engineer</p>
+        </div>
+        <hr>
+
+        <div class="midSideProfile">
+         <div>
+          <h5  style="opacity: 0.5;">Connections</h5>
+          <h4 style="margin-top:-18px;">Connect with alumni</h4>
+          <p style="margin-top:-12px; opacity: 0.5;">Who's viewed your profile</p>
+         </div>
+         <div>
+          <p style="color: blue;">73</p>
+          <p style="margin-top: 35px; color: blue;">19</p>
+         </div>
+        </div>
+        <hr>
+        <div class="bottomSideProfile">
+          <div class="bottomdiv1">
+            <i class="fa-solid fa-square" style="color: #e7a33e;"></i>
+            <h3>See your Premium features</h3>
+          </div>
+          <hr>
+          <div class="bottomdiv2">
+            <i class="fa-solid fa-bookmark fa-md"></i>
+            <h3>My items</h3>
+          </div>
+        </div>
+      </div>
+      <!-- topsidebar end -->
+
+
+<!-- bottom sidebar  start -->
+      <div class="bottomSidebar">
+        <div class="bottomSidebarDiv1">
+           <h5 id="recent">Recent</h5>
+           <h5>Groups</h5>
+           <h5>Events</h5>
+           <h5>Followed Hashtags</h5>
+           <h2 class="plusIcon"><b>+</b></h2>
+        </div>
+        <div class="discoverDiv">
+          <h3 class="DiscoverBtn">Discover more</h3>
+        </div>
+      </div>
+<!-- bottom sidebar  end -->
+
+
+    <rightSidebar class="rightSidebar">
+      <div class="sidebarHead">
+        <h2>LinkedIn News</h2>
+        <h4><i class="fa-solid fa-circle-info"></i></h4>
+      </div>
+      <div class="rightSidebarMain">
+         <div class="sideNews">
+          <i class="fa-solid fa-circle"></i>
+          <div class="sideNewsSub">
+            <h4>Equipping CXOs for ESG mandates</h4>
+            <p>2d ago</p>
+          </div>
+         </div>
+         <div class="sideNews">
+          <i class="fa-solid fa-circle"></i>
+          <div class="sideNewsSub">
+            <h4>HCLTech to hire 15,000 freshers</h4>
+            <p>20h ago</p>
+          </div>
+        </div>
+        <div class="sideNews">
+          <i class="fa-solid fa-circle "></i>
+          <div class="sideNewsSub">
+            <h4>Here are 2023’s top companies</h4>
+            <p>2d ago</p>
+          </div>
+        </div>
+        <div class="sideNews">
+          <i class="fa-solid fa-circle"></i>
+          <div class="sideNewsSub">
+            <h4>U.S. top choice for Indian students</h4>
+            <p>2d ago</p>
+          </div>
+        </div>
+        <div class="sideNews">
+          <i class="fa-solid fa-circle"></i>
+          <div class="sideNewsSub">
+            <h4>Green energy gets funding boost</h4>
+            <p>23h ago</p>
+          </div>
+        </div>
+        <div class="showMoreSection">
+          <h3>Show more</h3>
+          <i class="fa-solid fa-angle-down fa-xl"></i>
+        </div>
+      </div>
+    </rightSidebar>
+
+    <rightBottomSidebar class="rightBottomSidebar">
+      <img src="https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png" alt="Ad image" sizes="" srcset="">
+    </rightBottomSidebar>
+  </sidebar>
+
+
+    <main>
+      <div class="mainSection">
+        <div class="top1">
+
+          <div class="channelDetails"> 
+          <div id="topLogo">
+             <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1589990867649?e=1691020800&v=beta&t=10R0atiV2Zor512XzPYwvmrwCTaIfVtFInE03y77RaQ" alt="">
+          </div>
+            <div class="channelDescription">
+              <h4>freeCodeCamp</h4>
+              <p>1,899,769 followers</p>
+              <p>1d  <i class="fa-solid fa-earth-americas"></i></p>
+            </div>
+           <div class="menu">
+            <i class="fa-solid fa-ellipsis fa-xl"></i>
+           </div>
+          </div>
+
+          <div class="caption">
+              <p>When you're working with APIs, there are some best practices you should follow.
+               And if you really want to learn how APIs work, build one yourself.</p>
+               <h5 class="seeMore">...see more</h5>
+          </div>
+
+          <div class="post">
+            <img class="postImage" src="data:image/jpeg;base64,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" alt="">
+          </div>
+         <div class="postBottomTitle">
+          <p class="postAngleIcon">
+            <i class="fa-solid fa-angle-right"></i>
+            </p>
+              <p class="postSite">freecodecamp.org 32 min read</p>
+              <h3 class="postDesc">REST API Design Best Practices Handbook - How to Build a REST API with Javascript, node.js and Express.js</h3>
+         </div>
+        </div>
+        <div class="postImpressions">
+          <h3><i class="fa-regular fa-thumbs-up"></i> <span style="padding-left: 5px;">Like</span></h3>
+          <h3><i class="fa-regular fa-comment-dots"></i> <span style="padding-left: 5px;">Comment</span></h3>
+          <h3><i class="fa-solid fa-repeat"></i> <span style="padding-left: 5px;">Repost</span></h3>
+          <h3><i class="fa-solid fa-paper-plane"></i> <span style="padding-left: 5px;">Send</span></h3>
+        </div>
+      </div>
+    </main>
+
+    <footer >
+      <div class="footerRow">
+        <a href="">About</a>
+        <a href="">Accessibility</a> 
+        <a href="">Help Center</a> 
+      </div>
+       <div class="footerRow">
+        <a href="">Privacy & terms</a> 
+        <a href="">Add choices</a> 
+       </div>
+       <div class="footerRow">
+        <a href="">Get the app</a> 
+        <a href="">Business</a> 
+        <a href="">More</a> 
+       </div>
+<div class="copyrightSection">
+  <img class="footerImage" src="linkedinlogo.png" alt=""> 
+<p class="ccPara">Linkedin Corporation cc 2023</p>
+</div>    
+    </footer>
+  </body>
+</html>
